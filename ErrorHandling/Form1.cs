@@ -21,7 +21,7 @@ namespace ErrorHandling
              comboBox.Items.Add("Option 2");
              comboBox.Items.Add("Option 3");
          }*/
-         //
+         
         private void submitButton_Click(object sender, EventArgs e)
         {
             if (checkBox.Checked)
