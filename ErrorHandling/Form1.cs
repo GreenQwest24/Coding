@@ -14,13 +14,6 @@ namespace ErrorHandling
 
 
 
-        /* private void MainForm_Load(object sender, EventArgs e)
-         {
-             // Populate the combo box with some items
-             comboBox.Items.Add("Option 1");
-             comboBox.Items.Add("Option 2");
-             comboBox.Items.Add("Option 3");
-         }*/
          
         private void submitButton_Click(object sender, EventArgs e)
         {
