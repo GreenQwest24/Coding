@@ -9,7 +9,7 @@ namespace WeatherApp
 {
     public partial class MainForm : Form
     {
-        private const string OpenWeatherMapApiKey = "your_api_key_here"; // Replace with your OpenWeatherMap API key
+        private const string OpenWeatherMapApiKey = "844481055942fb01955a1075665a100c"; // Replace with your OpenWeatherMap API key
         private const string OpenWeatherMapApiUrl = "http://api.openweathermap.org/data/2.5/weather?q={0}&units=metric&appid={1}";
 
         private SpeechRecognitionEngine speechRecognizer;
@@ -27,7 +27,7 @@ namespace WeatherApp
                 speechRecognizer = new SpeechRecognitionEngine();
 
                 // Load grammar for recognizing city names
-                Choices cities = new Choices(new string[] { "New York", "London", "Paris", "Berlin", "Tokyo" });
+                Choices cities = new Choices(new string[] { "New York", "London", "Paris", "Berlin", "Tampa", "Tokyo","Youngstown"});
                 GrammarBuilder gb = new GrammarBuilder();
                 gb.Append(cities);
                 Grammar grammar = new Grammar(gb);
